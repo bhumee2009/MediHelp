@@ -1,0 +1,74 @@
+html, body{
+    text-align: center;
+    background:linear-gradient(#000099 0%, #0066ff 50%, #00ffff 100%);
+    
+  
+}
+
+#first{
+    text-align: center;
+    background:linear-gradient(#000099 0%, #0066ff 50%, #00ffff 100%);
+    color: white;
+    background:no-repeat;
+}
+
+.header
+{
+	color: white;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+#new{
+    margin-top: 250px;
+    background:no-repeat;
+}
+
+#name{
+    color: white;
+}
+
+label{
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#user_name{
+    color: black;
+}
+
+#login_div, h3, h4, label{
+    color: black;
+}
+
+#login_div{
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+#list_of_medicines{
+    height: 250px;
+}
+
+#name{
+    margin-top:50px;
+    font-size: 30px;
+}

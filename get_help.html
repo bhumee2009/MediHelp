@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>MediHelp</title>
+ <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<script src="get_help.js"></script>
+</head>
+
+<body id="first">
+    <div id="list_of_medicines" class="dropdown">
+        <ul id="name">
+            <li><a href="#">Paracetamol</a></li>
+        </ul>
+    </div>
+   <span> <input type="text" class="form-group" placeholder="Type your list here" id="name_medicines">
+   <input type="text"  id="price_medicines" class="form-group" style="width: 30%;" placeholder="type the price for the medicines here">
+   </span>
+   <br>
+
+   <h3>Disease:<span><input type="text" class="form-control" id="disease_input" placeholder="type here"></span></h3>
+
+   <h3>Doctor:<span><input type="text" id="doctor_input" class="form-control" placeholder="type here"></span></h3>
+
+   <h3>Address:<span><input type="text" id="address_input" class="form-control" placeholder="type here"></span></h3>
+
+   <br>
+
+   <button class="btn btn-success" onclick="publish()">Publish</button>
+
+
+
+</body>
